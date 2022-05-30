@@ -1,0 +1,268 @@
+html{
+    font-family: 'Oswald', sans-serif;
+}
+    
+
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+.link {
+    color: white;
+    background-color: black;
+    padding: 2rem;;
+    
+}
+.link_titulo{
+   width: auto;
+   height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+   
+/*header*/
+.link a{
+      color: #ffff;
+    text-decoration: none;
+}
+.link a:hover{
+    transition: color 0.3s ease;
+    color: #8c8c8c;
+}
+.link_nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/*main*/
+.main_grid{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.main_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.section{
+    width:666px;
+    margin: 0 auto;
+    background-color: white;
+    cursor: pointer;
+ 
+}
+
+.section_article{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+.section:hover{
+    transition: box-shadow ease 0.3s;
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+}
+
+.img_index{
+   width: 100%
+  
+}
+
+
+
+.div_img_historia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.img_section1{
+    width: 640px;
+    height: 320px;
+}
+.img_section2{
+    width: 640px;
+    
+}
+
+.img_section1:hover{
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.img_section2:hover{
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+}
+.div_b{
+    margin: 4rem;
+    padding: 2rem;
+    background: white;
+}
+.div_b:hover{
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.tabla{
+    padding: 8rem;
+display: flex;
+justify-content: center;
+
+}
+table{
+    width:100%;
+    background-color: #343338;
+    text-align: left;
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+ th{
+     background-color: black;
+     color: white;
+    border-bottom: white 5px;
+ }
+ 
+td a{
+    text-decoration: none;
+    color: white
+} 
+ tr:hover{
+     background-color: black;
+     color: white;
+ }
+
+ table:hover{
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+ }
+
+.form{
+  margin: 8rem 30rem;
+  background-color: white;
+ }
+
+ .main_conce{
+     margin: 5.5rem;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+.form:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+}
+
+.footer{
+    background-color: black;
+    padding: 4rem;
+    color: white;
+}
+.footer_section{
+    float: right;
+    
+
+}
+
+.footer a{
+    color: #ffff;
+    text-decoration: none;
+}
+.footer a:hover{
+    transition: color 0.3s ease;
+    color: #8c8c8c;
+}
+
+/* MEDIA QUERIS MOVIL INDEX*/
+
+@media screen and (max-width: 1435px){
+
+ .section{
+     width: 550px;
+ }
+
+ .img_index{
+     width: 100%;
+ }
+
+
+
+}
+.main_historia{
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+
+    .section{
+        width: 300px;
+    }
+
+    .img_index{
+        width: 100%;
+    }
+ 
+}
+
+@media screen and (max-width: 700px){
+
+    .main_grid{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0rem;
+        }
+
+    
+        .section{
+            width: 350px;
+        }
+        .img_index{
+            width:300px ;
+        }
+
+        .img_section1{
+            width: 400px;
+            order: 0;
+        }
+        .img_section2{
+            width: 400px;
+            order: 4;
+        }
+        .img_section{
+            margin: 1rem;
+        }
+
+        .div_b{
+            order: 2;
+        }
+
+        .videos{
+            width: 350px;
+        }
+
+    }
