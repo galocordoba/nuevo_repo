@@ -74,4 +74,25 @@
 .section_article_img {
   width: 100%;
 }
+
+.footer {
+  background-color: black;
+  padding: 4rem;
+  color: white;
+}
+
+.footer .footer_section {
+  float: right;
+}
+
+.footer .footer_a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.footer .footer_a:hover {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  color: #8c8c8c;
+}
 /*# sourceMappingURL=main.css.map */

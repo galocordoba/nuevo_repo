@@ -55,3 +55,25 @@
           }
 }
 
+.footer{
+    background-color: black;
+    padding: 4rem;
+    color: white;
+
+
+    .footer_section{
+        float: right;
+        
+        
+    }
+    
+    .footer_a{
+        color: #ffff;
+        text-decoration: none;
+    }
+    .footer_a:hover{
+        transition: color 0.3s ease;
+        color: #8c8c8c;
+    }
+}
+
