@@ -1,0 +1,59 @@
+.link {
+    color: white;
+    background-color: black;
+    padding: 2rem;;
+    
+    &_titulo{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+     a{
+        color: #ffff;
+        text-decoration: none;
+    }
+     a:hover{
+      transition: color 0.3s ease;
+      color: #8c8c8c;
+    }
+    &_nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+.hamburgesa{
+    padding: 0;
+    
+    .navbar-colors{
+        background-color: black;
+
+        .boton{
+            border: solid 1px white !important;
+            opacity: 0.5;
+        } 
+
+    }
+
+    .ancors{
+        border-radius: 10px;
+        background-color: black !important;
+         
+        .nav-link{
+            color: #ffff;
+            transition: color 0.3s ease !important;
+        }
+        .nav-link:hover{
+                transition: color 0.3s ease !important;
+                color: #8c8c8c;
+        }
+        
+    }
+
+  
+}
