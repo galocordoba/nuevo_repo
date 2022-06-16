@@ -1,3 +1,10 @@
 @import "./sass/index";
 @import "./sass/link";
-@import "./sass/responsive"
+@import "./sass/responsive";
+@import "./sass/variables";
+
+@mixin trans {
+    transition: color 0.3s ease;
+    color:map-get($colores,hover );
+    
+}

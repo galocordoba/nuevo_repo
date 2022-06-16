@@ -10,15 +10,14 @@
 .section_article{
 
     height: 95%;
-    background-color: #FFFFFF;
+    background-color: map-get($colores,letras );
     margin: 1rem;
     border-radius: 0.5rem;
     padding: 0.25rem;
     cursor: pointer;
             
          &:hover{
-              transition: box-shadow ease 0.3s;
-             box-shadow: 0 0.1rem 0 0.4rem rgba(0,0,0,0.3);
+            @include trans
           }
          &_img{
              width: 100%;
@@ -27,9 +26,9 @@
 }
 
 .footer{
-    background-color: black;
+    background-color: map-get($colores, secundario );
     padding: 4rem;
-    color: white;
+    color: map-get($colores,letras );
 
 
     .footer_section{
@@ -39,12 +38,11 @@
     }
     
     .footer_a{
-        color: #ffff;
+        color: map-get($colores,letras );
         text-decoration: none;
     }
     .footer_a:hover{
-        transition: color 0.3s ease;
-        color: #8c8c8c;
+        @include trans
     }
 }
 

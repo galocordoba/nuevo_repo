@@ -5,7 +5,8 @@
         "main.scss",
         "sass/_index.scss",
         "sass/_link.scss",
-        "sass/_responsive.scss"
+        "sass/_responsive.scss",
+        "sass/_variables.scss"
     ],
     "names": [],
     "file": "main.css"
