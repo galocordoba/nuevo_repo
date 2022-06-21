@@ -1,12 +1,13 @@
 @mixin ancor {
-    color: map-get($colores,letras );
-    text-decoration: none;
-    
-    
+    color: #ffff;
+    text-decoration: none !important;
 }
 
 @import "./sass/index";
 @import "./sass/link";
 @import "./sass/responsive";
 @import "./sass/variables";
-@import "./sass/footer"
+@import "./sass/footer";
+@import "./sass/contacto";
+@import "./sass/historia";
+@import "./sass/concierto"

@@ -2,6 +2,11 @@
     .hamburgesa{
         display: none !important;
     }
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
     
 }
 @media screen and (max-width: 991px) {
@@ -27,6 +32,21 @@
 
 @media screen and (max-width: 700px){
 
+   .main_conce{
+    margin:0;
+    display: flex;
+    flex-direction: column !important;
+
+    div{
+        padding: 0 !important;
+    }
+
+    .videos{
+        width: 100%;
+    }
+
+   }   
+
     
     .carrusel{
         display: none !important;
@@ -44,9 +64,11 @@
     .videos{
         width: 100%;
     
-        
     }
+    
 }
+
+    
  @media screen and (max-width: 420px){
 
         .section_article{
@@ -63,4 +85,4 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
-}
+ }

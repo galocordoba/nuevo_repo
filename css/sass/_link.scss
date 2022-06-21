@@ -1,6 +1,6 @@
 .link {
-    color: map-get($colores,letras );
-    background-color: map-get($colores, principal);
+    color: #ffff;
+    background-color: black;
     padding: 2rem;;
     
     &_titulo{
@@ -13,12 +13,12 @@
     }
 
      a{
-        @include ancor
+        @include ancor;
     }
      a:hover{
         @extend a;
         transition: color 0.3s ease;
-        color:map-get($colores,hover );
+        color: #8c8c8c;
      }
       
     &_nav{
@@ -32,7 +32,7 @@
     padding: 0;
     
     .navbar-colors{
-        background-color: map-get($colores,secundario );
+        background: #000 !important;
 
         .boton{
             border: solid 1px white !important;
@@ -49,7 +49,10 @@
             color: #ffff;
         }
         .nav-link:hover{
-            @include trans
+            @extend .nav-link;
+            transition: color 0.3s ease;
+              color: #8c8c8c;
+            
         }
         
     }

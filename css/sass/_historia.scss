@@ -1,0 +1,27 @@
+.main_historia{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
+.accordion-button{
+    font-size: 1rem;
+}
+
+.accordion-item{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.accordion-button:not(.collapse){
+    color: #FFFFFF;
+    background: #0c0c0c;
+    color: e8e8e8;
+}
+
+.accordion-button:not(.collapse)::after{
+    filter: brightness(0%) invert(70%);
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}

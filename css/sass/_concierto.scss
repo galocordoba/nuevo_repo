@@ -1,0 +1,11 @@
+.main_conce{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    div{
+        padding: 1rem;
+    }
+}
