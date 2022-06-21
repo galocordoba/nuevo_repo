@@ -1,0 +1,23 @@
+.footer{
+    background-color: map-get($colores, secundario );
+    padding: 4rem;
+    color: map-get($colores,letras );
+
+
+    &_section{
+        float: right;
+        
+        
+    }
+    
+    &_a{
+        @include ancor {
+            
+        }
+    }
+    &_a:hover{
+        @extend .footer_a;
+        transition: color 0.3s ease;
+        color:map-get($colores,hover );
+    }
+}

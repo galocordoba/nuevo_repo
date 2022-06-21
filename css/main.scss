@@ -1,10 +1,12 @@
+@mixin ancor {
+    color: map-get($colores,letras );
+    text-decoration: none;
+    
+    
+}
+
 @import "./sass/index";
 @import "./sass/link";
 @import "./sass/responsive";
 @import "./sass/variables";
-
-@mixin trans {
-    transition: color 0.3s ease;
-    color:map-get($colores,hover );
-    
-}
+@import "./sass/footer"

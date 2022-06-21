@@ -13,12 +13,12 @@
     }
 
      a{
-        color: map-get($colores,letras );
-        text-decoration: none;
+        @include ancor
     }
      a:hover{
-        
-        @include trans
+        @extend a;
+        transition: color 0.3s ease;
+        color:map-get($colores,hover );
      }
       
     &_nav{

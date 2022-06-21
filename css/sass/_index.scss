@@ -10,39 +10,18 @@
 .section_article{
 
     height: 95%;
-    background-color: map-get($colores,letras );
+    background-color:map-get($colores,letras );
     margin: 1rem;
     border-radius: 0.5rem;
     padding: 0.25rem;
     cursor: pointer;
             
          &:hover{
-            @include trans
+            @extend .section_article
           }
          &_img{
              width: 100%;
             
           }
-}
-
-.footer{
-    background-color: map-get($colores, secundario );
-    padding: 4rem;
-    color: map-get($colores,letras );
-
-
-    .footer_section{
-        float: right;
-        
-        
-    }
-    
-    .footer_a{
-        color: map-get($colores,letras );
-        text-decoration: none;
-    }
-    .footer_a:hover{
-        @include trans
-    }
 }
 
