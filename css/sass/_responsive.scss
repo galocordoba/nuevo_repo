@@ -1,7 +1,5 @@
 @media screen and (min-width :992px) {
-    .hamburgesa{
-        display: none !important;
-    }
+    
 
     .contenedor{
         display: grid;
@@ -11,9 +9,7 @@
 }
 @media screen and (max-width: 991px) {
 
-   .link_nav{
-    display:none !important;
-   }
+  
 
     .main_contacto{
         margin: 0;
@@ -69,7 +65,7 @@
 }
 
     
- @media screen and (max-width: 420px){
+ @media screen and (max-width: 425px){
 
         .section_article{
             margin: 0;
@@ -84,5 +80,17 @@
             padding: 0;
             margin-top: 2rem;
             margin-bottom: 2rem;
+        }
+        .main_contacto{
+            padding: 0 !important;
+        }
+        .contenedor{
+            padding: 0 !important;
+            width: 100%;
+        }
+        form{
+            display: flex !important;
+            flex-direction: column;
+            padding: 0;
         }
  }
